@@ -1,0 +1,20 @@
+{
+  "port": "InputDrivers-Main",
+  "name": "Xf86-Input-Wacom",
+  "version": "0.40.0",
+  "architectures": ["x86_64"],
+  "description": "X.Org driver for Wacom devices",
+  "website": "https://github.com/linuxwacom/input-wacom",
+  "downloadLinks": ["https://github.com/linuxwacom/xf86-input-wacom/releases/download/xf86-input-wacom-0.40.0/xf86-input-wacom-0.40.0.tar.bz2"],
+  "md5sums": ["e97a5230d1875d288010b3df1b332ed5"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Server",
+      "version": "1.20.13",
+      "options": []
+    }
+  ],
+  "options": []
+}

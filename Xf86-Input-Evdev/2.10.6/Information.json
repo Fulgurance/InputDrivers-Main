@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Generic Linux input driver for the Xorg X server",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-input-evdev",
-  "downloadLinks": ["https://www.x.org/pub/individual/driver/xf86-input-evdev-2.10.6.tar.bz2"],
-  "md5sums": ["e8bd1edc6751f92e425cae7eba3c61eb"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

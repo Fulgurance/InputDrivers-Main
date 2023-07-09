@@ -13,6 +13,6 @@
       "options": []
     }
   ],
-  "kernelDependencies": [],
+  "kernelDependencies": ["CONFIG_HID","CONFIG_HID_WACOM"],
   "options": []
 }

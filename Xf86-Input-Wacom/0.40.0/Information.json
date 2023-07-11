@@ -2,7 +2,9 @@
   "port": "InputDrivers-Main",
   "name": "Xf86-Input-Wacom",
   "version": "0.40.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X.Org driver for Wacom devices",
   "website": "https://github.com/linuxwacom/input-wacom",
   "installedFiles": [],
@@ -13,6 +15,9 @@
       "options": []
     }
   ],
-  "kernelDependencies": ["CONFIG_HID","CONFIG_HID_WACOM"],
+  "kernelDependencies": [
+    "CONFIG_HID",
+    "CONFIG_HID_WACOM"
+  ],
   "options": []
 }

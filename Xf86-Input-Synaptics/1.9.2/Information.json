@@ -1,0 +1,26 @@
+{
+  "port": "InputDrivers-Main",
+  "name": "Xf86-Input-Synaptics",
+  "version": "1.9.1",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Synaptics touchpad driver for the Xorg X server",
+  "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-input-synaptics",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Libevdev",
+      "version": "1.13.1",
+      "options": []
+    },
+    {
+      "name": "Xorg-Server",
+      "version": "21.1.8",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

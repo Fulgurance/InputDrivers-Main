@@ -1,0 +1,28 @@
+{
+  "port": "InputDrivers-Main",
+  "name": "Xf86-Input-Wacom",
+  "version": "1.2.0",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "X.Org driver for Wacom devices",
+  "website": "https://github.com/linuxwacom/input-wacom",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Server",
+      "version": "21.1.8",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [
+    "CONFIG_HID",
+    "CONFIG_HID_SUPPORT",
+    "CONFIG_HID_WACOM",
+    "CONFIG_USB",
+    "CONFIG_USB_SUPPORT",
+    "CONFIG_USB_HID"
+  ],
+  "options": [],
+  "uniqueOptions": []
+}

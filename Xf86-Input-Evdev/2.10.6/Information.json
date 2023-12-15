@@ -11,17 +11,17 @@
   "dependencies": [
     {
       "name": "Libevdev",
-      "version": "1.11.0",
+      "version": ">=1.11.0",
       "options": []
     },
     {
       "name": "Mtdev",
-      "version": "1.1.6",
+      "version": ">=1.1.6",
       "options": []
     },
     {
       "name": "Xorg-Server",
-      "version": "1.20.13",
+      "version": ">=1.20.13",
       "options": []
     }
   ],

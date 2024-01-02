@@ -5,7 +5,7 @@ class Target < ISM::Software
         super
 
         runMesonCommand([   "setup",
-                            @buildDirectoryNames["MainBuild"],
+                            @buildDirectoryNames["MainBuild"]],
                             path: mainWorkDirectoryPath)
     end
 

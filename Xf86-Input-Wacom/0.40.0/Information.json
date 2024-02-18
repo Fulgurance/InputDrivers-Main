@@ -20,5 +20,6 @@
     "CONFIG_HID_WACOM"
   ],
   "options": [],
+  "uniqueDependencies": [],
   "uniqueOptions": []
 }

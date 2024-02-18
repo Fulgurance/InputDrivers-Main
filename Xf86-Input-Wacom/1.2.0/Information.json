@@ -24,5 +24,6 @@
     "CONFIG_USB_HID"
   ],
   "options": [],
+  "uniqueDependencies": [],
   "uniqueOptions": []
 }

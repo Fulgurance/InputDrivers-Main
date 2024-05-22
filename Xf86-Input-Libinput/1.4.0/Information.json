@@ -2,19 +2,19 @@
   "port": "InputDrivers-Main",
   "name": "Xf86-Input-Libinput",
   "version": "1.4.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "A libinput-based input driver for the Xorg X server",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-input-libinput",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "InputDriverLibraries-Main",
       "name": "Libinput",
       "version": ">=1.18.1",
       "options": []
     },
     {
+      "port": "XorgBase-Main",
       "name": "Xorg-Server",
       "version": ">=1.20.13",
       "options": []

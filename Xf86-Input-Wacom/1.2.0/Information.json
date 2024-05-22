@@ -2,16 +2,15 @@
   "port": "InputDrivers-Main",
   "name": "Xf86-Input-Wacom",
   "version": "1.2.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "X.Org driver for Wacom devices",
   "website": "https://github.com/linuxwacom/input-wacom",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "XorgBase-Main",
       "name": "Xorg-Server",
-      "version": "21.1.8",
+      "version": ">=21.1.8",
       "options": []
     }
   ],

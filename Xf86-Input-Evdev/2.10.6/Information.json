@@ -2,24 +2,25 @@
   "port": "InputDrivers-Main",
   "name": "Xf86-Input-Evdev",
   "version": "2.10.6",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Generic Linux input driver for the Xorg X server",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-input-evdev",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "InputDriverLibraries-Main",
       "name": "Libevdev",
       "version": ">=1.11.0",
       "options": []
     },
     {
+      "port": "InputDriverLibraries-Main",
       "name": "Mtdev",
       "version": ">=1.1.6",
       "options": []
     },
     {
+      "port": "XorgBase-Main",
       "name": "Xorg-Server",
       "version": ">=1.20.13",
       "options": []

@@ -1,31 +1,28 @@
 class Target < ISM::Software
 
     def prepare
-        @buildDirectory = true
         super
+
+        runAutoreconfCommand(["-fiv"],buildDirectoryPath)
     end
 
     def configure
         super
 
-        runMesonCommand([   "setup",
-                            "--reconfigure",
-                            @buildDirectoryNames["MainBuild"],
-                            "--prefix=/usr",
-                            "--localstatedir=/var"],
-                            path: mainWorkDirectoryPath)
+        configureSource([   "--prefix=/usr"],
+                            path: buildDirectoryPath)
     end
 
     def build
         super
 
-        runNinjaCommand(path: buildDirectoryPath)
+        makeSource(path: buildDirectoryPath)
     end
 
     def prepareInstallation
         super
 
-        runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
+        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
     end
 
 end

@@ -3,12 +3,12 @@ class Target < ISM::Software
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--sysconfdir=/etc",
-                            "--localstatedir=/var",
-                            "--disable-static",
-                            "--with-systemd-unit-dir=no"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr          \
+                                    --sysconfdir=/etc       \
+                                    --localstatedir=/var    \
+                                    --disable-static        \
+                                    --with-systemd-unit-dir=no",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -20,7 +20,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end

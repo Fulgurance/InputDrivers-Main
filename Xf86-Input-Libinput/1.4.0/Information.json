@@ -14,9 +14,9 @@
       "options": []
     },
     {
-      "port": "XorgBase-Main",
-      "name": "Xorg-Server",
-      "version": ">=1.20.13",
+      "port": "SystemBase-Main",
+      "name": "GraphicalServer",
+      "version": ">=0.2.0",
       "options": []
     }
   ],
@@ -25,5 +25,5 @@
   "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
-  "allowCodependencies": ["@XorgBase-Main:Xorg-Server"]
+  "allowCodependencies": ["@SystemBase-Main:GraphicalServer"]
 }

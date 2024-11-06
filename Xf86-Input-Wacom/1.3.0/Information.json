@@ -8,9 +8,9 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "XorgBase-Main",
-      "name": "Xorg-Server",
-      "version": ">=21.1.8",
+      "port": "SystemBase-Main",
+      "name": "GraphicalServer",
+      "version": ">=0.2.0",
       "options": []
     }
   ],

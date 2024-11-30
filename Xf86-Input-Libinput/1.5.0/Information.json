@@ -17,7 +17,7 @@
       "port": "SystemBase-Main",
       "name": "GraphicalServer",
       "version": ">=0.2.0",
-      "options": []
+      "options": ["Xorg-Server"]
     }
   ],
   "kernelDependencies": [],

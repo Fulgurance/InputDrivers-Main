@@ -14,7 +14,7 @@
       "options": []
     },
     {
-      "port": "SystemBase-Main",
+      "port": "Components-Main",
       "name": "GraphicalServer",
       "version": ">=0.2.0",
       "options": ["Xorg-Server"]
@@ -25,5 +25,5 @@
   "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
-  "allowCodependencies": ["@SystemBase-Main:GraphicalServer"]
+  "allowCodependencies": ["@Components-Main:GraphicalServer"]
 }

@@ -1,7 +1,7 @@
 {
   "port": "InputDrivers-Main",
   "name": "Xf86-Input-Synaptics",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "architectures": ["x86_64"],
   "description": "Synaptics touchpad driver for the Xorg X server",
   "website": "https://gitlab.freedesktop.org/xorg/driver/xf86-input-synaptics",

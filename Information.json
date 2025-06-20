@@ -1,0 +1,7 @@
+{
+  "name": "InputDrivers-Main",
+  "url": "https://github.com/Fulgurance/InputDrivers-Main",
+  "publicKeyUrl": "http://www.slashlinux.io/keyring/Fulgurance.key",
+  "type": "Git",
+  "description": "Port that contain all input drivers"
+}

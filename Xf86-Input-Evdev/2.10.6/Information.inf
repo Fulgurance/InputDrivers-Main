@@ -1,0 +1,21 @@
+PORT
+    InputDrivers-Main
+NAME
+    Xf86-Input-Evdev
+VERSION
+    2.10.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Generic Linux input driver for the Xorg X server
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/driver/xf86-input-evdev
+DEPENDENCIES
+        @InputDriverLibraries-Main:Libevdev>=1.11.0
+        @InputDriverLibraries-Main:Mtdev>=1.1.6
+        @SystemBase-Main:GraphicalServer>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,25 @@
+PORT
+    InputDrivers-Main
+NAME
+    Xf86-Input-Wacom
+VERSION
+    1.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X.Org driver for Wacom devices
+WEBSITE
+    https://github.com/linuxwacom/input-wacom
+DEPENDENCIES
+        @SystemBase-Main:GraphicalServer>=0.2.0
+KERNELDEPENDENCIES
+    CONFIG_HID
+    CONFIG_HID_SUPPORT
+    CONFIG_HID_WACOM
+    CONFIG_USB
+    CONFIG_USB_SUPPORT
+    CONFIG_USB_HID
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

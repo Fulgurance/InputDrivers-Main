@@ -1,0 +1,20 @@
+PORT
+    InputDrivers-Main
+NAME
+    Xf86-Input-Synaptics
+VERSION
+    1.10.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Synaptics touchpad driver for the Xorg X server
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/driver/xf86-input-synaptics
+DEPENDENCIES
+        @InputDriverLibraries-Main:Libevdev>=1.13.1
+        @SystemBase-Main:GraphicalServer>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
